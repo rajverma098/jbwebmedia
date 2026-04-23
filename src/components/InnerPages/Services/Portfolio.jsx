@@ -22,7 +22,7 @@ function Portfolio({ lightMode }) {
       },
       whenOutOfView(element) {
         element.classList.remove('current');
-        document.querySelector("#" + element.getAttribute('data-tab')).classList.remove('current');
+        document.querySelector("#" + element.getAttribute('data-tab')).classList.remove('current') || null;
       }
     });
 

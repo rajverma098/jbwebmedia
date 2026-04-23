@@ -12,20 +12,20 @@ function Form() {
               <p className="fz-15 mt-10">If you would like to work with us or just want to get in
                 touch, we’d love to hear from you!</p>
               <div className="phone fz-30 fw-600 mt-30 underline">
-                <a href="#0">+1 840 841 25 69</a>
+                <a href="tel:+919855655151">+91 9855655151</a>
               </div>
               <ul className="rest social-text d-flex mt-60">
                 <li className="mr-30">
-                  <a href="#0">Facebook</a>
+                  <a href="https://www.facebook.com/Jbwebmedia" target='_blank'>Facebook</a>
                 </li>
                 <li className="mr-30">
-                  <a href="#0">Twitter</a>
+                  <a href="https://x.com/JbwebMedia" target='_blank'>Twitter</a>
                 </li>
                 <li className="mr-30">
-                  <a href="#0">LinkedIn</a>
+                  <a href="https://www.linkedin.com/" target='_blank'>LinkedIn</a>
                 </li>
                 <li>
-                  <a href="#0">Instagram</a>
+                  <a href="https://www.instagram.com/jbwebmedia/" target='_blank'>Instagram</a>
                 </li>
               </ul>
             </div>

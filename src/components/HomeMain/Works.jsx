@@ -4,10 +4,12 @@ import data from '@/data/HomeMain/works.json';
 
 function Works() {
   return (
-    <section className="works thecontainer">
+    <section className="works thecontainer ">
+      {/* <h2 className='text-center pt-100'>Real Results - Case Studies</h2> */}
+     
       {
         data.map(item => (
-          <div className="panel mt-30" key={item.id}>
+          <div className="panel " key={item.id}>
             <div className="item">
               <div className="img">
                 <img src={item.image} alt="" />
@@ -16,10 +18,11 @@ function Works() {
                 <div>
                   <span>{item.tag}</span>
                   <h5>{item.title}</h5>
+                  <p>{item.description}</p>
                 </div>
-                <div className="ml-auto">
+                {/* <div className="ml-auto">
                   <h6>{item.date}</h6>
-                </div>
+                </div> */}
               </div>
               <a href="#0" className="link-overlay"></a>
             </div>
@@ -27,6 +30,7 @@ function Works() {
         ))
       }
     </section>
+    
   )
 }
 

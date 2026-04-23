@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Free advertising for your online business.",
+    "title": "Agency Works Only Under These Conditions",
     "image": "/dark/assets/imgs/sass-img/blog/1.jpg",
     "date": "August 6, 2022",
     "tags": [
@@ -11,7 +11,27 @@
   },
   {
     "id": 2,
-    "title": "Business meeting 2023 in San Francisco.",
+    "title": "Top 10 Tips To Grow Your Agency",
+    "image": "/dark/assets/imgs/sass-img/blog/2.jpg",
+    "date": "August 6, 2022",
+    "tags": [
+      "Marketing",
+      "Design"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "There are many variations of passages of Lorem Ipsum available.",
+    "image": "/dark/assets/imgs/sass-img/blog/2.jpg",
+    "date": "August 6, 2022",
+    "tags": [
+      "Marketing",
+      "Design"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Getting tickets to the big show",
     "image": "/dark/assets/imgs/sass-img/blog/2.jpg",
     "date": "August 6, 2022",
     "tags": [
@@ -19,4 +39,5 @@
       "Design"
     ]
   }
+  
 ]

@@ -9,13 +9,13 @@ import Navbar from '@/components/Common/MainNavbar';
 import Header from '@/components/HomeMain/Header';
 import About from '@/components/HomeMain/About';
 import Marq from '@/components/HomeMain/Marq';
-import Clients from '@/components/HomeMain/Clients';
 import Services from '@/components/HomeMain/Services';
 import Works from '@/components/HomeMain/Works';
-import ServicesTabs from '@/components/HomeMain/ServicesTabs';
+// import ServicesTabs from '@/components/HomeMain/ServicesTabs';
 import Testimonials from '@/components/HomeMain/Testimonials';
 import Blog from '@/components/HomeMain/Blog';
 import Footer from '@/components/HomeMain/Footer';
+import FAQHome from '@/components/InnerPages/Services/FAQHome';
 
 function HomeMain() {
   useEffect(() => {
@@ -97,14 +97,15 @@ function HomeMain() {
         <div id="smooth-content">
           <main className="main-bg">
             <Header />
+           
             <About />
-            <Marq />
-            <Clients />
+             <Marq />
             <Services />
             <Works />
-            <ServicesTabs />
+            {/* <ServicesTabs /> */}
             <Testimonials />
             <Blog />
+            <FAQHome />
           </main>
           <Footer />
         </div>

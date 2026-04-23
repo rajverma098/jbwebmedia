@@ -1,0 +1,45 @@
+[{
+    "id": 3,
+    "image": "assets/imgs/serv-icons/link.svg",
+    "title": "SEO & Link Building Services",
+    "text": "We will ensure that your business is featured on Google at the time when people are searching for you. Our crew tackles technical SEO, acquires authentic backlinks on true authority sites, satisfies search intent, and develops EEAT and addresses AEO, GEO, LLM SEO, and full-funnel content (TOFU/MOFU/BOFU). The result? Better positions, increased traffic, and consistent growth, which may typically start in a few months.",
+    "readMoreLink": "/seo-link-building/"
+  },
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/megaphone.svg",
+    "title": "Digital Marketing Services",
+    "text": "We convert ordinary clicks into real paying customers with the help of targeted Google Ads, Facebook/Instagram PPC, and retargeting campaigns. We narrow sales funnels, A/B test landing pages, and monitor every rupee spent (with Google Analytics and conversion tracking) to make the most of ROI and enable small and Medium-sized Enterprises (SMEs) to scale profitably. ",
+ "readMoreLink": "/digital-marketing/"
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/globe.svg",
+    "title": "Creative Website Design Services",
+    "text": "We create slick, mobile-first websites in Figma/Adobe XD that are fast to load and how to take action. All the elements focus on UX/UI, conversion triggers (CTAs, forms), optimization of speed, and branding, thus individuals remain engaged and reach out to you or make a purchase immediately.",
+     "readMoreLink": "/creative-web-design/"
+  },
+  {
+    "id": 4,
+    "image": "assets/imgs/serv-icons/code.svg",
+    "title": "Website Development Services",
+    "text": "We design websites that are designed to endure and expand with your business. Be it a simple WordPress site, a Shopify store, or a full custom React application, we make it fast, secure (with an SSL and malware protection), mobile-responsive, and SEO-friendly, with e-commerce capabilities when there is a need. Ready to scale, integrations, and anything new. ",
+     "readMoreLink": "/web-development/"
+  }
+  ,
+  {
+    "id": 5,
+    "image": "assets/imgs/serv-icons/app.svg",
+    "title": "Mobile App Development Services",
+    "text": "We accept your idea and develop apps that are smooth and reliable in iOS and Android and are powered by Flutter/React Native with robust Firebase/AWS backends. Emphasis will be placed on excellent user experience, high performance, push notifications, analytics, and functionalities that enable users to keep coming back, which is ideal for SMEs that are ready to launch or grow.",
+     "readMoreLink": "/app-development/"
+  }
+  ,
+  {
+    "id": 6,
+    "image": "assets/imgs/serv-icons/content.svg",
+    "title": "Content Marketing Services",
+    "text": "We produce SEO-optimized blog posts, lead magnets, case studies, and full-funnel guides (TOFU/MOFU/BOFU) that resonate with your audience, top the search engine, and facilitate your sales process. We build a steady stream of organic traffic and develop leads to SMEs through trust-building resources to conversion-driven resources. ",
+     "readMoreLink": "/content-marketing/"
+  }
+]

@@ -9,18 +9,19 @@ function CallToAction({ lightMode, innerPageStyle }) {
   }, []);
 
   return (
-    <section className="call-action-img">
+    <section className="call-action-img about_call">
       <div className="container">
-        <div className="sec-bg-img bg-img parallaxie" data-background="/dark/assets/imgs/background/2.jpg"></div>
+        <div className="sec-bg-img bg-img parallaxie" data-background="/dark/assets/imgs/about/about-03.jpg"></div>
         <div className="sec-lg-head section-padding">
           <div className="row ontop">
             <div className="col-11 d-flex align-items-center">
               <div className="valign">
                 <h2 className="fz-50 d-rotate wow">
-                  <span className="rotate-text">Have a project in mind?</span>
-                  <span className="rotate-text">Let’s <span className={innerPageStyle ? '' : 'sub-font'}>get to work</span>.</span>
+                  <span className="rotate-text">Let's Get Your Business Moving</span>
                 </h2>
+  
               </div>
+              
               <div className="ml-auto">
                 <Link href="/dark/page-contact" className="butn-circle d-flex align-items-center text-center m-auto">
                   <div className="full-width">

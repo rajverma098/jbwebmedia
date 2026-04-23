@@ -8,27 +8,46 @@
     },
     {
       "id": 2,
-      "title": "Branding",
-      "filter": ".brand",
-      "count": "03"
+      "title": "SEO & Link-Building",
+      "filter": ".seo"
     },
     {
       "id": 3,
-      "title": "Mobile App",
-      "filter": ".app",
-      "count": "02"
+      "title": "Digital Marketing",
+      "filter": ".digital"
+  
     },
     {
       "id": 4,
-      "title": "Creative",
-      "filter": ".web",
-      "count": "03"
+      "title": "Web Design",
+      "filter": ".design"
+
+    }
+    ,
+    {
+      "id": 5,
+      "title": "Web Development",
+      "filter": ".development"
+
+    }
+    ,
+    {
+      "id": 6,
+      "title": "App Development",
+      "filter": ".app"
+
+    }
+    ,
+    {
+      "id": 7,
+      "title": "Content Marketing",
+      "filter": ".marketing"
     }
   ],
   "gallery": [
     {
       "id": 1,
-      "filter": "web",
+      "filter": "development",
       "image": "/dark/assets/imgs/works/grid2/1.jpg",
       "type": "Design ART",
       "year": "2023",
@@ -36,6 +55,14 @@
     },
     {
       "id": 2,
+      "filter": "digital",
+      "image": "/dark/assets/imgs/works/grid2/2.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design"
+    },
+    {
+      "id": 6,
       "filter": "app",
       "image": "/dark/assets/imgs/works/grid2/2.jpg",
       "type": "Design ART",
@@ -44,7 +71,7 @@
     },
     {
       "id": 3,
-      "filter": "brand",
+      "filter": "seo",
       "image": "/dark/assets/imgs/works/grid2/3.jpg",
       "type": "Design ART",
       "year": "2023",
@@ -52,7 +79,7 @@
     },
     {
       "id": 4,
-      "filter": "web",
+      "filter": "design",
       "image": "/dark/assets/imgs/works/grid2/4.jpg",
       "type": "Design ART",
       "year": "2023",
@@ -60,19 +87,28 @@
     },
     {
       "id": 5,
-      "filter": "brand",
+      "filter": "seo",
       "image": "/dark/assets/imgs/works/grid2/5.jpg",
       "type": "Design ART",
       "year": "2023",
       "title": "Character Design"
     },
     {
-      "id": 6,
-      "filter": "app",
+      "id": 9,
+      "filter": "marketing",
+      "image": "/dark/assets/imgs/works/grid2/6.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design"
+    },
+    {
+      "id": 10,
+      "filter": "marketing",
       "image": "/dark/assets/imgs/works/grid2/6.jpg",
       "type": "Design ART",
       "year": "2023",
       "title": "Character Design"
     }
+    
   ]
 }

@@ -7,15 +7,14 @@ function Header({ data, subBg }) {
         <div className="row">
           <div className="col-lg-8">
             <div className="caption">
-              <h6 className="sub-title">{data.subTitle}</h6>
-              <h1 className="fz-55">{data.title}</h1>
+              <h1 className="fz-55">About JB WebMedia: Your Go-To Digital Marketing Team</h1>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-5 offset-lg-4">
+          <div className="col-lg-10">
             <div className="text mt-30">
-              <p>We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly, achieve marketing goals, and look fantastic.</p>
+              <p>JB WebMedia has been helping businesses just like yours show up stronger online for over 13+ years. We have collaborated with 250+ firms in 10+ countries, increasing their average traffic by 5x through strong SEO services, clever link-building, and a clean web layout that actually works. We are here because we like to see real results of real people.</p>
             </div>
           </div>
         </div>

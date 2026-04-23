@@ -7,8 +7,7 @@ function Header({ data }) {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h6 className="sub-title">{data.subTitle}</h6>
-              <h1>{data.title}</h1>
+              <h1>Our Work Portfolio</h1>
             </div>
           </div>
         </div>

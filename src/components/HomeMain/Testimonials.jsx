@@ -34,9 +34,9 @@ function Testimonials({ lightMode }) {
           <div className="col-12">
             <div className="sec-lg-head mb-80">
               <div className="position-re text-center">
-                <h6 className="dot-titl-non mb-15 wow fadeIn">Testimonials</h6>
+                {/* <h6 className="dot-titl-non mb-15 wow fadeIn">Testimonials</h6> */}
                 <h2 className="d-rotate wow">
-                  <span className="rotate-text">What People Says?</span>
+                  <span className="rotate-text">What Our Clients Say</span>
                 </h2>
               </div>
             </div>
@@ -68,7 +68,7 @@ function Testimonials({ lightMode }) {
                             <i className="fas fa-star"></i>
                           </span>
                         </div>
-                        <h5 className="fw-400">I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</h5>
+                        <h5 className="fw-400">JB WebMedia completely changed how our business shows up online. Traffic and leads keep climbing, and their team is always one step ahead and totally open about what they’re doing.</h5>
                       </div>
                       <div className="d-flex align-items-center">
                         <div>
@@ -78,8 +78,8 @@ function Testimonials({ lightMode }) {
                         </div>
                         <div className="ml-30">
                           <div className="info">
-                            <h6 className="fz-16">Leonard Heiser</h6>
-                            <span className="opacity-7 sub-title">Ceo</span>
+                            <h6 className="fz-16">Rahul Sharma</h6>
+                            <span className="opacity-7 sub-title">E-commerce Owner</span>
                           </div>
                         </div>
                       </div>
@@ -97,7 +97,7 @@ function Testimonials({ lightMode }) {
                             <i className="fas fa-star"></i>
                           </span>
                         </div>
-                        <h5 className="fw-400">I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</h5>
+                        <h5 className="fw-400">We noticed a big jump in how well our website performs and the returns we get from ads. Their approach is practical, based on real numbers, and clearly aimed at growing the actual business.</h5>
                       </div>
                       <div className="d-flex align-items-center">
                         <div>
@@ -107,8 +107,37 @@ function Testimonials({ lightMode }) {
                         </div>
                         <div className="ml-30">
                           <div className="info">
-                            <h6 className="fz-16">Leonard Heiser</h6>
-                            <span className="opacity-7 sub-title">Ceo</span>
+                            <h6 className="fz-16">Dr. Mehta</h6>
+                            <span className="opacity-7 sub-title">Healthcare Clinic</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="item">
+                      <div className="cont mb-40">
+                        <div className="rate-stars mb-20 fz-16">
+                          <span className="rate main-color4">
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                          </span>
+                        </div>
+                        <h5 className="fw-400">From the design right through to the SEO, they handled everything smoothly. The team really gets what we’re trying to achieve and delivers work that shows up in our revenue.</h5>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <div className="img circle-60">
+                            <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/testim/2.jpg`} alt="" className="circle-img" />
+                          </div>
+                        </div>
+                        <div className="ml-30">
+                          <div className="info">
+                            <h6 className="fz-16">Aman Verma</h6>
+                            <span className="opacity-7 sub-title">Startup Founder</span>
                           </div>
                         </div>
                       </div>

@@ -50,7 +50,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
   return (
     <nav className={`navbar navbar-expand-lg ${curve ? 'nav-crev' : ''} ${noStatic ? '' : 'static'} ${mainBg ? 'main-bg' : ''} ${subBg ? 'sub-bg' : ''}`}>
       <div className="container">
-        <a className="logo icon-img-130 p-2" href="#">
+        <Link className="logo icon-img-130 p-2" href="/">
       <Image
         src={lightMode ? Images.logoDark : Images.logoLight}
           alt="JB Web Media Logo"
@@ -58,7 +58,7 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
           height={80}
           priority
         />
-        </a>
+        </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={toggleNavbar}>
           <span className="icon-bar"><i className="fas fa-bars"></i></span>
         </button>
@@ -66,35 +66,35 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
         <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link"  href="/">
+              <Link className="nav-link"  href="/">
                 <span className="rolling-text">Home</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-             <a className="nav-link"  href="/about">
+              <Link className="nav-link" href="/about">
                 <span className="rolling-text">About</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown" onMouseMove={handleDropdownMouseMove} onMouseLeave={handleDropdownMouseLeave}>
-              <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/services" role="button" aria-haspopup="true" aria-expanded="false">
+              <Link className="nav-link dropdown-toggle" data-toggle="dropdown" href="/services" role="button" aria-haspopup="true" aria-expanded="false">
                 <span className="rolling-text">Services</span>
-              </a>
+              </Link>
               <div className="dropdown-menu">
-                <Link className="dropdown-item" href="/">SEO & Link-Building</Link>
-                <Link className="dropdown-item" href="/">Digital Marketing</Link>
-                <Link className="dropdown-item" href="/">Creative Web Design</Link>
-                <Link className="dropdown-item" href="/">Web Development</Link>
-                <Link className="dropdown-item" href="/">App Development</Link>
-                <Link className="dropdown-item" href="/">Content Marketing</Link>
+            <Link className="dropdown-item" href="/services/seo-link-building">SEO & Link-Building</Link>
+                <Link className="dropdown-item" href="/services/digital-marketing">Digital Marketing</Link>
+                <Link className="dropdown-item" href="/services/creative-web-design">Creative Web Design</Link>
+                <Link className="dropdown-item" href="/services/web-development">Web Development</Link>
+                <Link className="dropdown-item" href="/services/app-development">App Development</Link>
+                <Link className="dropdown-item" href="/services/content-marketing">Content Marketing</Link>
               </div>
             </li>
             <li className="nav-item">
-             <a className="nav-link"  href="/portfolio">
+              <Link className="nav-link" href="/portfolio">
                 <span className="rolling-text">Portfolio</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href={`/jbwebmedia/contact`}><span className="rolling-text">Contact</span></Link>
+              <Link className="nav-link" href={`/contact`}><span className="rolling-text">Contact</span></Link>
             </li>
           </ul>
         </div>

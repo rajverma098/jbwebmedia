@@ -3,6 +3,7 @@ import React from 'react';
 import data from '@/data/app-data.json';
 import Image from 'next/image';
 import Images from '@/images/Images';
+import Link from 'next/link';
 
 function Footer({ lightMode }) {
   return (
@@ -11,7 +12,7 @@ function Footer({ lightMode }) {
         <div className="container pb-80 pt-80 ontop">
           <div className="call-box text-center mb-80">
             <h2>
-              <a href="page-contact.html">Let's <span className="stroke"> Discuss</span></a>
+              <Link href="/contact/">Let's <span className="stroke"> Discuss</span></Link>
               <span className="arrow">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
@@ -38,10 +39,10 @@ function Footer({ lightMode }) {
                 </div>
                 <div className="text">
                   <p className="mb-10">
-                    <a href="#0">info.jbwebmebmedia@gmail.com</a>
+                    <Link href="mailto:info.jbwebmebmedia@gmail.com">info.jbwebmebmedia@gmail.com</Link>
                   </p>
                   <h5>
-                    <a href="#">+1 840 841 25 69</a>
+                    <Link href="tel:+919855655151">+91 9855655151</Link>
                   </h5>
                 </div>
               </div>
@@ -52,16 +53,19 @@ function Footer({ lightMode }) {
               </div>
               <ul className="rest social-text">
                 <li>
-                  <a href="#0">Facebook</a>
+                  <Link href="https://www.facebook.com/Jbwebmedia" target='_blank'>Facebook</Link>
                 </li>
                 <li>
-                  <a href="#0">Twitter</a>
+                  <Link href="https://x.com/JbwebMedia" target='_blank'>Twitter</Link>
                 </li>
                 <li>
-                  <a href="#0">LinkedIn</a>
+                  <Link href="https://www.linkedin.com/" target='_blank'>LinkedIn</Link>
                 </li>
                 <li>
-                  <a href="#0">Instagram</a>
+                  <Link href="https://www.instagram.com/jbwebmedia/" target='_blank'>Instagram</Link>
+                </li>
+                 <li>
+                  <Link href="/privacyPolicy/" target='_blank'>Privacy Policy</Link>
                 </li>
               </ul>
             </div>
@@ -87,7 +91,7 @@ function Footer({ lightMode }) {
             <div className="row">
               <div className="col-lg-4">
                 <div className="logo">
-                  <a href="#">
+                  <Link href="/">
                       <Image
         src={lightMode ? Images.logoDark : Images.logoLight}
           alt="JB Web Media Logo"
@@ -95,14 +99,14 @@ function Footer({ lightMode }) {
           height={80}
           priority
         />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-8">
                 <div className="copyright d-flex">
                   <div className="ml-auto">
                     <p className="fz-13">
-                      © 2023 JB Web Media is Proudly Powered by <span className="underline"> <a href={data.author_link} target="_blank">{data.author}</a></span>
+                     © 2026. All rights reserved.
                     </p>
                   </div>
                 </div>

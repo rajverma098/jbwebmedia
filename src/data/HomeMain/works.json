@@ -1,37 +1,42 @@
 [
   {
     "id": 1,
-    "image": "/dark/assets/imgs/portfolio/4/01.jpg",
-    "tag": "Web Design",
-    "title": "Color Integration",
-    "date": 2023
+    "image": "/dark/assets/imgs/portfolio/4/06.jpg",
+    "tag": "SEO",
+    "title": "ABC - Fashion Retailer",
+    "description": "In just seven months, we helped them grow organic traffic by 380%, land the number-one spot for 47 important keywords, and add real extra sales through better SEO and app store work.",
+    "date": 2026
   },
   {
     "id": 2,
-    "image": "/dark/assets/imgs/portfolio/4/02.jpg",
-    "tag": "Mobile Software",
-    "title": "Color Integration",
-    "date": 2023
+    "image": "/dark/assets/imgs/portfolio/4/06.jpg",
+    "tag": "SEO",
+    "title": "DSA Clinics - Healthcare ",
+    "description": "Appointment bookings jumped 420%, they ranked on the first page for more than 120 local searches, and every rupee spent on marketing came back five times over.",
+    "date": 2026
   },
   {
     "id": 3,
-    "image": "/dark/assets/imgs/portfolio/4/03.jpg",
-    "tag": "Web Design",
-    "title": "New Gadgets",
-    "date": 2023
+    "image": "/dark/assets/imgs/portfolio/4/06.jpg",
+    "tag": "Mobile app development",
+    "title": "GDF - Fintech Startup",
+    "description": "We built and launched their app in eight weeks. It picked up 68,000 downloads in the first three months and turned 42% of those users into active customers.",
+    "date": 2026
   },
   {
     "id": 4,
-    "image": "/dark/assets/imgs/portfolio/4/04.jpg",
+    "image": "/dark/assets/imgs/portfolio/4/06.jpg",
     "tag": "Web Design",
     "title": "Digital Platform",
+    "description": "",
     "date": 2023
   },
   {
     "id": 5,
-    "image": "/dark/assets/imgs/portfolio/4/05.jpg",
+    "image": "/dark/assets/imgs/portfolio/4/06.jpg",
     "tag": "Web Design",
     "title": "Branding Process",
+    "description": "",
     "date": 2023
   },
   {
@@ -39,6 +44,7 @@
     "image": "/dark/assets/imgs/portfolio/4/06.jpg",
     "tag": "Web Design",
     "title": "Branding Process",
+    "description": "",
     "date": 2023
   }
 ]

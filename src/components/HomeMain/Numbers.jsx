@@ -12,20 +12,20 @@ function Numbers() {
         </div>
         <div className="col-lg-3 col-md-6 d-flex justify-content-around">
           <div className="item md-mb50">
-            <h2 className="fw-800">4<span className="fz-80 fw-600">k</span></h2>
-            <h6>Projects Complated</h6>
+            <h2 className="fw-800">400+</h2>
+            <h6>Web Designs</h6>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 d-flex justify-content-around">
           <div className="item sm-mb50">
-            <h2 className="fw-800 stroke">9<span className="fz-80 fw-600">k</span></h2>
-            <h6>Happy Customers</h6>
+            <h2 className="fw-800 stroke">550+</h2>
+            <h6>SEO/Digital Marketing</h6>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 d-flex">
           <div className="item ml-auto">
-            <h2 className="fw-800">12</h2>
-            <h6>Awards Winning</h6>
+            <h2 className="fw-800">350+</h2>
+            <h6>Content & others</h6>
           </div>
         </div>
       </div>
